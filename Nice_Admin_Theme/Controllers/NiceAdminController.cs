@@ -22,5 +22,60 @@ namespace Nice_Admin_Theme.Controllers
         {
             return View();
         }
+
+        public IActionResult FormComponent()
+        {
+            return View();
+        }
+
+        public IActionResult Button()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        public IActionResult Blank()
+        {
+            return View();
+        }
+
+        public IActionResult Error404()
+        {
+            return View();
+        }
+
+        public IActionResult BasicTable()
+        {
+            return View();
+        }
+
+        public IActionResult Chart()
+        {
+            return View();
+        }
+
+        public IActionResult Widget()
+        {
+            return View();
+        }
+
+        public IActionResult Element()
+        {
+            return View();
+        }
+
+        public IActionResult Grid()
+        {
+            return View();
+        }
     }
 }

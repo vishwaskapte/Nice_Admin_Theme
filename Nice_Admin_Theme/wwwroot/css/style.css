@@ -8293,39 +8293,20 @@ table.sliders tr td {
 
 
 .has-switch {
-
     border-radius: 30px;
-
     -webkit-border-radius: 30px;
-
     display: inline-block;
-
     cursor: pointer;
-
     line-height: 1.231;
-
     overflow: hidden;
-
     position: relative;
-
     text-align: left;
-
     width: 80px;
-
-    -webkit-mask: url('../img/mask.png') 0 0 no-repeat;
-
-    mask: url('../img/mask.png') 0 0 no-repeat;
-
     -webkit-user-select: none;
-
     -moz-user-select: none;
-
     -ms-user-select: none;
-
     -o-user-select: none;
-
     user-select: none;
-
 }
 
 .has-switch.deactivate {
@@ -8525,11 +8506,6 @@ table.sliders tr td {
     border-radius: 6px;
 
     -webkit-border-radius: 6px;
-
-    -webkit-mask: url('../img/mask.png') 0 0 no-repeat;
-
-    mask: url('../img/mask.png') 0 0 no-repeat;
-
 }
 
 .switch-square > div.switch-off label {
