@@ -12,5 +12,15 @@ namespace Nice_Admin_Theme.Controllers
         {
             return View();
         }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
+
+        public IActionResult FormValidation()
+        {
+            return View();
+        }
     }
 }

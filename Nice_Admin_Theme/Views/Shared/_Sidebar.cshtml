@@ -4,7 +4,7 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
             <li class="active">
-                <a class="" href="index.html">
+                <a class="" asp-controller="NiceAdmin" asp-action="Index">
                     <i class="icon_house_alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -17,7 +17,7 @@
                 </a>
                 <ul class="sub">
                     <li><a class="" href="form_component.html">Form Elements</a></li>
-                    <li><a class="" href="form_validation.html">Form Validation</a></li>
+                    <li><a class="" asp-controller="NiceAdmin" asp-action="FormValidation">Form Validation</a></li>
                 </ul>
             </li>
             <li class="sub-menu">
@@ -65,7 +65,7 @@
                     <span class="menu-arrow arrow_carrot-right"></span>
                 </a>
                 <ul class="sub">
-                    <li><a class="" href="profile.html">Profile</a></li>
+                    <li><a class="" asp-action="Profile" asp-controller="NiceAdmin">Profile</a></li>
                     <li><a class="" href="login.html"><span>Login Page</span></a></li>
                     <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
                     <li><a class="" href="blank.html">Blank Page</a></li>
